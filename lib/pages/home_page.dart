@@ -1,4 +1,5 @@
-import 'package:crime_net/pages/reported_crimes_page.dart';
+import 'package:crime_net/components/list_features.dart';
+import 'package:crime_net/pages/reported_crimes_list.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -18,7 +19,7 @@ class HomePage extends StatelessWidget {
           },
           icon: const Icon(Icons.menu),
         ),
-        title: const Text("Texto de exemplo"),
+        title: const Text("Página inicial"),
         actions: const [
           IconButton(
             onPressed: null,
@@ -47,12 +48,28 @@ class HomePage extends StatelessWidget {
                   ),
                 );
               },
+            ),
+            ListTile(
+              title: const Text("Reportar crime"),
+              onTap: () {
+                Navigator.of(scaffoldKey.currentContext!).push(
+                  MaterialPageRoute(
+                    builder: (context) => const ReportedCrimesPage(),
+                  ),
+                );
+              },
             )
           ],
         ),
       ),
-      body: const Center(
-        child: Text("Tela inicial"),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Align(
+          alignment: Alignment.center,
+          child: ConstrainedBox(
+              constraints: const BoxConstraints(maxWidth: 600),
+              child: const ListFeatures()),
+        ),
       ),
     );
   }

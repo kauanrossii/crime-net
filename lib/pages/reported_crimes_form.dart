@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class ReportedCrimesPage extends StatelessWidget {
-  const ReportedCrimesPage({super.key});
-  
+class ReportedCrimesForm extends StatelessWidget {
+  const ReportedCrimesForm({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -11,7 +11,7 @@ class ReportedCrimesPage extends StatelessWidget {
           onPressed: null,
           icon: Icon(Icons.menu),
         ),
-        title: const Text("Crimes reportados"),
+        title: const Text("Reportar crime"),
         actions: const [
           IconButton(
             onPressed: null,
@@ -21,7 +21,7 @@ class ReportedCrimesPage extends StatelessWidget {
         ],
       ),
       body: const Center(
-        child: Text("Tela de crimes reportados"),
+        child: Text("Página de cadastro de crimes"),
       ),
     );
   }
