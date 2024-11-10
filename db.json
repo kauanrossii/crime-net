@@ -1,0 +1,137 @@
+{
+    "reported-crimes": [
+      {
+        "uuid": "c6b8f4fa-bd15-4d38-82b4-9f27b4c31492",
+        "userId": "65d5f71b-129b-4df6-9c3a-e3bb6f248a3d",
+        "date": "2024-11-01",
+        "latitude": "-23.420998",
+        "longitude": "-51.933056",
+        "type": "theft"
+      },
+      {
+        "uuid": "75c4a39d-91c3-41e5-9a21-5d2a8c5a6d39",
+        "userId": "c3f9a00c-fbb8-44c1-80a2-fc9ec5058b13",
+        "date": "2024-11-02",
+        "latitude": "-23.419633",
+        "longitude": "-51.936108",
+        "type": "robbery"
+      },
+      {
+        "uuid": "2d858b7e-206d-4b17-813b-4cdb5cf7c6e2",
+        "userId": "da568b27-6764-412e-b29a-f4b8269f8b47",
+        "date": "2024-11-03",
+        "latitude": "-23.422271",
+        "longitude": "-51.935928",
+        "type": "murder"
+      },
+      {
+        "uuid": "1abed003-8b04-495f-b52d-2e9985f9cb5b",
+        "userId": "5c19d272-c8b3-438f-9b4d-0b4e8ec4b6ea",
+        "date": "2024-11-04",
+        "latitude": "-23.418203",
+        "longitude": "-51.934599",
+        "type": "attemptedMurder"
+      },
+      {
+        "uuid": "a79e558d-1a85-4ec7-87b4-2f3a6c69d6f3",
+        "userId": "e0bfcaa4-c46d-4d95-8b74-8263d5e6fc7d",
+        "date": "2024-11-05",
+        "latitude": "-23.420489",
+        "longitude": "-51.933145",
+        "type": "kidnapping"
+      },
+      {
+        "uuid": "e3893e33-669f-4be8-8ec6-75d2a05f4905",
+        "userId": "4b512ad2-c29f-48c1-8a25-1336c09e3d8b",
+        "date": "2024-11-06",
+        "latitude": "-23.421571",
+        "longitude": "-51.932084",
+        "type": "traffic"
+      },
+      {
+        "uuid": "48b5f256-0d60-4c80-bb07-b362473c522a",
+        "userId": "d63e807e-f22a-418f-8b60-2f5268f47910",
+        "date": "2024-11-07",
+        "latitude": "-23.419901",
+        "longitude": "-51.934823",
+        "type": "smuggling"
+      },
+      {
+        "uuid": "b9d17ed6-5d93-4d59-9ff8-ec71d2d9230b",
+        "userId": "ad39a6c2-3a1f-4b7a-9ec4-933bf3738f3d",
+        "date": "2024-11-08",
+        "latitude": "-23.420011",
+        "longitude": "-51.935922",
+        "type": "bodilyInjury"
+      },
+      {
+        "uuid": "ae5d42ef-d204-4f1a-bf9c-70b93a19e0a3",
+        "userId": "50db0b25-707d-474d-b82b-453d1b6726b8",
+        "date": "2024-11-09",
+        "latitude": "-23.420123",
+        "longitude": "-51.936203",
+        "type": "robbery"
+      },
+      {
+        "uuid": "56d073ab-d69b-473a-92d7-2f02a6171a8b",
+        "userId": "28d18d87-487e-4cd7-a760-048db41e4ed3",
+        "date": "2024-11-09",
+        "latitude": "-23.419700",
+        "longitude": "-51.932975",
+        "type": "theft"
+      }
+    ],
+    "users": [
+      {
+        "uuid": "65d5f71b-129b-4df6-9c3a-e3bb6f248a3d",
+        "email": "lucas.silva@example.com",
+        "password": "a7f5b3c9d283b0d4f0e8b6f3d1a9c12e"
+      },
+      {
+        "uuid": "c3f9a00c-fbb8-44c1-80a2-fc9ec5058b13",
+        "email": "mariana.santos@example.com",
+        "password": "7c4a8d09ca3762af61e59520943dc264"
+      },
+      {
+        "uuid": "da568b27-6764-412e-b29a-f4b8269f8b47",
+        "email": "carlos.oliveira@example.com",
+        "password": "d1f2b2e6a4c9f1d8b3e4a9c7f3d1e8b0"
+      },
+      {
+        "uuid": "5c19d272-c8b3-438f-9b4d-0b4e8ec4b6ea",
+        "email": "ana.pereira@example.com",
+        "password": "e4f2d1a9b3c8e5a7c0d4f1b9a3d7c6e8"
+      },
+      {
+        "uuid": "e0bfcaa4-c46d-4d95-8b74-8263d5e6fc7d",
+        "email": "joao.souza@example.com",
+        "password": "b7e5f3d2c1a9b8c4e2f4a1d9c3e0f8b7"
+      },
+      {
+        "uuid": "4b512ad2-c29f-48c1-8a25-1336c09e3d8b",
+        "email": "fernanda.almeida@example.com",
+        "password": "c9a7f4b1e3d2a8c6b5f3e1d0c4a7e6b9"
+      },
+      {
+        "uuid": "d63e807e-f22a-418f-8b60-2f5268f47910",
+        "email": "roberto.lima@example.com",
+        "password": "f3b5a1c7e9d0b4c2a8f3d7e6b1c4a8f7"
+      },
+      {
+        "uuid": "ad39a6c2-3a1f-4b7a-9ec4-933bf3738f3d",
+        "email": "juliana.martins@example.com",
+        "password": "a1d4e5f3b2c8e9f0b7a3c1d8e4f2b7a6"
+      },
+      {
+        "uuid": "50db0b25-707d-474d-b82b-453d1b6726b8",
+        "email": "rafael.silveira@example.com",
+        "password": "d2a9e1b3c4f7a8e5b9d0f4c1e6b7f3a4"
+      },
+      {
+        "uuid": "28d18d87-487e-4cd7-a760-048db41e4ed3",
+        "email": "paula.costa@example.com",
+        "password": "b5c7a2f4e9d0b3a1e6d8f3c4a7e1b9d2"
+      }
+    ]
+  }
+  

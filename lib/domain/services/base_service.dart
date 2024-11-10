@@ -7,7 +7,7 @@ import 'package:http/http.dart';
 abstract class BaseService<T extends BaseEntity> {
   final http.Client _client;
   final String _resource;
-  static const String _baseAddress = "http://localhost:3000";
+  static const String _baseAddress = "http://10.0.2.2:3000";
 
   String getBaseAddress() {
     return _baseAddress;
@@ -31,6 +31,8 @@ abstract class BaseService<T extends BaseEntity> {
   }
 
   Future<List<T>> getAll() async {
+    print(_baseAddress);
+    print(_resource);
     var response = await _client.get(Uri.parse("$_baseAddress/$_resource"));
     var json = jsonDecode(response.body) as List;
     var jsonList =

@@ -14,12 +14,12 @@ class User extends BaseEntity {
   }
 
   User(this._email, this._password) {
-    uuid = const Uuid();
+    uuid = const Uuid().toString();
   }
 
   @override
   User.fromJson(Map<String, dynamic> json) : super.fromJson(json) {
-    uuid = json['uuid'] as Uuid;
+    uuid = json['uuid'] as String;
     _email = json['email'] as String;
     _password = json['password'] as String;
   }

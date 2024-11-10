@@ -1,13 +1,13 @@
 import 'package:uuid/uuid.dart';
 
 abstract class BaseEntity {
-  late Uuid uuid;
+  late String uuid;
 
   BaseEntity() {
-    uuid = const Uuid();
+    uuid = const Uuid().toString();
   }
 
   BaseEntity.fromJson(Map<String, dynamic> json) {
-    uuid = json['uuid'] as Uuid;
+    uuid = json['uuid'] as String;
   }
 }

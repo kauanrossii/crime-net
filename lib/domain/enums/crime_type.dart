@@ -13,23 +13,23 @@ extension CrimeTypeExtension on CrimeType {
   String get value {
     switch (this) {
       case CrimeType.theft:
-        return 'theft';
+        return 'Furto';
       case CrimeType.robbery:
-        return 'robbery';
+        return 'Roubo';
       case CrimeType.murder:
-        return 'murder';
+        return 'Assassinato';
       case CrimeType.attemptedMurder:
-        return 'attemptedMurder';
+        return 'Tentativa de assassinato';
       case CrimeType.kidnapping:
-        return 'kidnapping';
+        return 'Sequestro';
       case CrimeType.traffic:
-        return 'traffic';
+        return 'Tráfico';
       case CrimeType.smuggling:
-        return 'smuggling';
+        return 'Contrabando';
       case CrimeType.bodilyInjury:
-        return 'bodilyInjury';
+        return 'Lesão corporal';
       default:
-        return 'unknown';
+        return 'Desconhecido';
     }
   }
 }

@@ -11,7 +11,10 @@ class ReportedCrimeService extends BaseService<ReportedCrime> {
 
   @override
   Future<List<ReportedCrime>> getAll({CrimeType? type}) async {
-    var uri = Uri.parse("$getBaseAddress()/$getResource()");
+    print(getBaseAddress());
+    print(getResource());
+
+    var uri = Uri.parse("${getBaseAddress()}/${getResource()}");
 
     if (type != null) {
       uri = uri.replace(queryParameters: {
@@ -21,6 +24,7 @@ class ReportedCrimeService extends BaseService<ReportedCrime> {
     }
 
     var response = await getClient().get(uri);
+    print(response);
     var json = jsonDecode(response.body) as List;
     var jsonList =
         json.map((element) => element as Map<String, dynamic>).toList();
